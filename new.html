@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News | HoYoVerse</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">HOYOVERSE</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="news.html" class="active">News</a>
+        <a href="about.html">About Us</a>
+        <a href="careers.html">Careers</a>
+        <a href="helpcenter.html">Help Center</a>
+      </nav>
+    </header>
+    <section class="news-header">
+      <h1>News</h1>
+    </section>
+    <section class="news-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="product">Product</button>
+      <button class="filter-btn" data-filter="company">Company</button>
+    </section>
+    <section class="news-list">
+      <div class="news-card" data-category="product">
+        <img
+          src="9f7cad7f13429cb51981696ea2e7b249_4383892880893563374.png"
+          alt="Honkai Impact 3rd"
+        />
+        <div class="badge">Product</div>
+        <div class="news-info">
+          <h3>Honkai Impact 3rd</h3>
+          <p>Launching v8.5 [A Lightful Love]</p>
+          <span class="date">10/23/2025</span>
+        </div>
+      </div>
+      <div class="news-card" data-category="product">
+        <img
+          src="6d4d110aa51387911e13ccb3ef99927d_2135645365816770498.jpeg"
+          alt="Genshin Impact"
+        />
+        <div class="badge">Product</div>
+        <div class="news-info">
+          <h3>Genshin Impact</h3>
+          <p>Version Luna II officially debuts</p>
+          <span class="date">10/22/2025</span>
+        </div>
+      </div>
+      <div class="news-card" data-category="company">
+        <img
+          src="https://upload-os-bbs.mihoyo.com/upload/2024/02/01/office.jpg"
+          alt="Company Update"
+        />
+        <div class="badge">Company</div>
+        <div class="news-info">
+          <h3>HoYoVerse Global Office</h3>
+          <p>Expanding worldwide with new studios</p>
+          <span class="date">09/15/2025</span>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>© 2025 HoYoVerse. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
